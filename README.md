@@ -13,7 +13,7 @@ El objetivo principal es demostrar cómo cargar datos de forma incremental, actu
 - `functionExt/` → Contiene utilidades como:
   - `createBDPragma.py` → Crea la base de datos SQLite y las tablas necesarias.
   - `createSparkSession.py` → Inicializa la sesión de Spark.
-- `data/` → Carpeta donde se ubican los archivos CSV (`validation.csv` y los archivos principales).
+- `data/` → Carpeta donde se ubican los archivos CSV y BD (`pragmaTest.db` y los archivos principales).
 - `main.py` → Script principal que ejecuta todo el pipeline.
 
 ---
